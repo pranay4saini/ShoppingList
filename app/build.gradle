@@ -8,6 +8,11 @@ android {
     namespace 'com.pranay.shoppinglist'
     compileSdk 33
 
+    buildFeatures {
+
+        viewBinding true
+
+    }
     defaultConfig {
         applicationId "com.pranay.shoppinglist"
         minSdk 26
